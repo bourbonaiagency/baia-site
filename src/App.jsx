@@ -319,7 +319,7 @@ export default function BAIAOnePage() {
 
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
           <Button href="#contact">Demander une démo <ArrowRight className="h-4 w-4" /></Button>
-          <Button as="a" href="https://wa.me/262000000000" target="_blank" rel="noreferrer" variant="outline">
+          <Button as="a" href="https://wa.me/262692508037" target="_blank" rel="noreferrer" variant="outline">
             <MessageCircle className="h-4 w-4" /> Discuter sur WhatsApp
           </Button>
         </div>
@@ -410,10 +410,10 @@ export default function BAIAOnePage() {
         </div>
         <div className="mx-auto mt-10 md:mt-12 grid max-w-5xl grid-cols-2 gap-5 md:gap-6 md:grid-cols-4">
           {[
-            { label: "Satisfaction client", value: 28, suffix: "%", hint: "↑ CSAT/NPS" },
-            { label: "Coûts de support", value: 35, suffix: "%", hint: "↓ tickets humains" },
+            { label: "Satisfaction client", value: 98, suffix: "%", hint: "↑ CSAT/NPS" },
+            { label: "Coûts de support", value: -20, suffix: "%", hint: "↓ tickets humains" },
             { label: "Disponibilité", value: 24, suffix: "/7", hint: "Service continu" },
-            { label: "Scalabilité", value: 10, suffix: "x", hint: "Pics sans friction" },
+            { label: "Scalabilité", value: 10, suffix: "x", hint: "Connexion aux systèmes" },
           ].map((kpi, i) => (
             <div key={i} className="rounded-3xl border border-neutral-200/70 p-6 text-center dark:border-white/10">
               <div className="text-4xl font-extrabold text-rose-600 dark:text-rose-400">
@@ -443,7 +443,7 @@ export default function BAIAOnePage() {
               <div className="flex items-center gap-3 text-neutral-700 dark:text-white/80"><Phone className="h-4 w-4"/> +262 6 92 50 80 37</div>
               <div className="flex items-center gap-3 text-neutral-700 dark:text-white/80"><Mail className="h-4 w-4"/> contact@baiaconseil.re</div>
               <div className="pt-2">
-                <Button as="a" href="https://wa.me/262000000000" target="_blank" rel="noreferrer">
+                <Button as="a" href="https://wa.me/262692508037" target="_blank" rel="noreferrer">
                   <MessageCircle className="h-4 w-4"/> Discuter sur WhatsApp
                 </Button>
               </div>
